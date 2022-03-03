@@ -245,13 +245,14 @@ a:active {
 /*==================================================
                       ABOUT
 ====================================================*/
-  #about {
+  #about1 {
     
-    background-image: url(./assets/img/intro-bg.jpg); 
+    background: url(./assets/img/sintro-bg.jpg) center bottom;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-   
+    background-attachment: fixed;
+
   }
   
   .nombre{
@@ -3070,7 +3071,7 @@ a:active {
     top: 0;
     left: 0;
     width: 100%;
-    height: 102%;
+    height: 108%;
     background: #1a1a1a;
     opacity: .87;
   }
@@ -3610,12 +3611,12 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    font-family: "poppins-bold", sans-serif;
-    font-size: 1.4rem;
+    font-family: "poppins", sans-serif;
+    font-size: 1rem !important;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    height: 5.4rem;
-    line-height: 5.4rem;
+    /*height: 5.4rem;
+    line-height: 5.4rem;*/
     padding: 0 3rem;
     margin: 0 .3rem 1.2rem 0;
     background: #d8d8d8;
@@ -3909,9 +3910,9 @@ header .logo a {
 * ------------------------------------------------------------------- 
 */
 #about {
-  background: #FFFFFF;
   padding-top: 12rem;
   padding-bottom: 15rem;
+  background:#FFFFFF;
 }
 #about .section-intro {
   margin-bottom: 3rem;
@@ -4282,7 +4283,7 @@ header .logo a {
 * ------------------------------------------------------------------- 
 */
 #services {
-  background: #313131 url(../../ensayo/src/assets/img/images/bg.jpg) no-repeat center;
+  background: #313131 url(./assets/img/images/bg.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
