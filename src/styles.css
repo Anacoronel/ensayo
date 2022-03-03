@@ -3,7 +3,7 @@
 /*GENERAL STYLE*/
 
 body {
-  background: #000000;
+  background: #151515;
 
     font-family: 'Open Sans', serif;
     padding-top: 54px;
@@ -114,7 +114,10 @@ a:active {
           flex-direction: column;
           width: 17rem;
           height: 100vh;
+         
       }
+      
+      
       #sideNav .navbar-brand {
           display: flex;
           margin: auto auto 0;
@@ -139,12 +142,20 @@ a:active {
       }
       #sideNav .navbar-collapse .navbar-nav .nav-item {
           display: block;
+         
       }
       #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
           display: block;
+          
       }
+      
   }
+  
+ 
+  
 
+  
+  
 /*==================================================
                   BUTTON (Generic)
 ====================================================*/
@@ -224,7 +235,7 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #000000 !important;
+      background-color: #151515 !important;
   }
 
   .text-primary {
@@ -236,7 +247,7 @@ a:active {
 ====================================================*/
   #about {
     
-    background-image: url(./assets/img/images/intro-bg1.jpg); 
+    background-image: url(./assets/img/intro-bg.jpg); 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -442,7 +453,7 @@ a:active {
 }
 */
 .skill-cover {
-    background-color: #000000; 
+    background-color: #151515; 
 }
 
 .skill-cover h3{
@@ -836,31 +847,31 @@ a:active {
     }
   }
   .fa-rotate-90 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";*/
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
   }
   .fa-rotate-180 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+   /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";*/
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
   }
   .fa-rotate-270 {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  /*  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";*/
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
   }
   .fa-flip-horizontal {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+   /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";*/
     -webkit-transform: scale(-1, 1);
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
   }
   .fa-flip-vertical {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+   /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";*/
     -webkit-transform: scale(1, -1);
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
@@ -3054,3 +3065,15 @@ a:active {
     clip: auto;
   }
   
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 102%;
+    background: #1a1a1a;
+    opacity: .87;
+  }
+  .my-auto{
+    position:relative !important;
+  }
