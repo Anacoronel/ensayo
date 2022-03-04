@@ -175,8 +175,9 @@ a:active {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 12rem !important;
+    padding-bottom: 12rem !important;
+    position: relative;
   }
   
   .nombre{
@@ -4331,6 +4332,12 @@ header .logo a {
   #stats .stat:nth-child(n) {
       border-left: 1px solid rgba(255, 255, 255, 0.12);
   }
+  .stat-count{
+    font-size: 1rem;
+  }
+  .fa{
+    font-size: 2rem;
+  }
   #stats .stat:nth-child(2n+1) {
       border: none;
   }
@@ -4339,7 +4346,17 @@ header .logo a {
   #stats .stat:nth-child(n) {
       border: none;
   }
+
+  .stat-count{
+    font-size: 1rem !important;
+  }
+  .fa{
+    font-size: 2.5rem !important;
+  }
+
 }
+
+
 
 
 /** 
